@@ -97,7 +97,7 @@ def h_to_v():
 			print("\nNo values found.\n")
 		else:
 			nl = '\n' #che porcata sta cosa, ma vabbe, thx python
-			print(f"""{nl}Active values:{nl}{nl}- {nl.join(has)}{nl}""")
+			print(f"""{nl}Active values:{nl}{nl}{nl.join(has)}{nl}""")
 
 def v_to_h():
 	# Create a dict with all values unchecked
